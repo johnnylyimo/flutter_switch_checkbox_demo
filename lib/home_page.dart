@@ -50,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         isSwitched
                             ? colorType = Colors.blue
                             : colorType = Colors.yellow;
+                        isChecked = false; // turn off if is true
                       });
                     },
                     activeTrackColor: Colors.blue.shade300,
@@ -78,6 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         isChecked
                             ? colorType = Colors.green
                             : colorType = Colors.red;
+                        isSwitched = false; // turn off if is true
                       });
                     },
                   ),

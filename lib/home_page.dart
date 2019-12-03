@@ -14,7 +14,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Center(
-          child: Text('Hello Flutter'),
+          child: Text('ON/OFF Color'),
         ),
       ),
       body: Center(
@@ -27,7 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: <Widget>[
               Center(
                 child: Text(
-                  'Hello Folks',
+                  'Color (^._.^)',
                   style: TextStyle(color: colorType),
                 ),
               ),

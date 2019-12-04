@@ -2,7 +2,7 @@
 
 Shows how to implement Switch and Checkbox widgets to achieve your goals.
 
-## Getting Started, you good to go
+## Getting Started.
 
 print (" SHARING IS CARING ") ;
 
